@@ -1,0 +1,53 @@
+element.style {
+}
+.stat-card {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: #1a1a2e;
+    min-height: 100vh;
+}
+:root {
+    --navy: #0a1628;
+    --navy2: #0d2b4e;
+    --navy3: #1a4080;
+    --saffron: #f28c1e;
+    --saffron2: #e07810;
+    --green: #1a7a3c;
+    --green2: #22a050;
+    --red: #c0392b;
+    --cream: #fdf8f0;
+    --white: #ffffff;
+    --gray: #6b7280;
+    --lightgray: #f3f4f6;
+    --border: #e5e7eb;
+    --shadow: 0 2px 12px rgba(10, 22, 40, 0.10);
+    --shadow2: 0 4px 24px rgba(10, 22, 40, 0.15);
+}
+<style>
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2');
+    unicode-range: U +0100 -02BA, U +02BD -02C5, U +02C7 -02CC, U +02CE -02D7, U +02DD -02FF, U +0304, U +0308, U +0329, U +1D00 -1DBF, U +1E00 -1E9F, U +1EF2 -1EFF, U +2020, U +20A0 -20AB, U +20AD -20C0, U +2113, U +2C60 -2C7F, U + A720-A7FF;
+}
